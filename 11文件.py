@@ -1,7 +1,7 @@
 def main():
     f = None
     try:
-        f = open('node', 'r', encoding='utf-8')
+        f = open('基础1-15/node', 'r', encoding='utf-8')
         print(f.read())
     except FileNotFoundError:
         print('无法打开指定的文件!')

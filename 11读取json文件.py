@@ -24,7 +24,7 @@ def main():
     }
     try:
         # 写入json文件中
-        with open('data.json','w',encoding='utf-8') as fj:
+        with open('基础1-15/data.json', 'w', encoding='utf-8') as fj:
            #  序列化
            json.dump(mydict,fj)
     except IOError as e:
@@ -34,7 +34,7 @@ def main():
 def w_json():
     try:
         # 读取json
-        with open('data.json',mode = 'r',encoding='utf-8') as rf:
+        with open('基础1-15/data.json', mode ='r', encoding='utf-8') as rf:
             # 反序列化
             print(json.load(rf))
     except IOError as e:

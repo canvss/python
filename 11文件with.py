@@ -7,7 +7,7 @@
 ------------------------------
 """
 def main():
-    with open('node','r',encoding='utf-8') as f:
+    with open('基础1-15/node', 'r', encoding='utf-8') as f:
         print(f.read())
 
 

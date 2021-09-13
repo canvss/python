@@ -10,9 +10,9 @@
 def main():
     mfs = None
     try:
-        with open('img.png',mode='rb') as mf:
+        with open('基础1-15/img.png', mode='rb') as mf:
             mfs = mf.read()
-        with open('copy_img.png',mode='wb') as wf:
+        with open('基础1-15/copy_img.png', mode='wb') as wf:
             wf.write(mfs)
     except FileNotFoundError:
         print('文件不存在')
