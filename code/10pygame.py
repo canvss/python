@@ -14,7 +14,7 @@ def main():
     # pygame.draw.circle(screen, (255, 0, 0,), (100, 100), 30, 0)
 
     # 加载图片
-    ball_image = pygame.image.load('基础1-15/081F51BA-E5EA-48C0-AF03-5306303D93F0.jpeg')
+    ball_image = pygame.image.load('/081F51BA-E5EA-48C0-AF03-5306303D93F0.jpeg')
     # 渲染图片
     screen.blit(ball_image,(50,50))
 
