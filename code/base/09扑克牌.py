@@ -105,7 +105,7 @@ def get_key(card):
 def main():
     p = Poker()
     p.shuffle()
-    player = Player('刘国鹏')
+    player = Player('endless')
     for _ in range(13):
         player.get(p.next)
     print(player.name + ':', end=' ')

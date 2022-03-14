@@ -40,7 +40,7 @@ if __name__ == '__main__':
     per = Person('jack')
     per.eat()
     per.running()
-    stu = Student('张露',2)
+    stu = Student('zz',2)
     stu.study()
     stu.watch_movie()
 
