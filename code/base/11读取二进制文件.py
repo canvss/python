@@ -10,7 +10,7 @@
 def main():
     mfs = None
     try:
-        with open('基础1-15/img.png', mode='rb') as mf:
+        with open('基础1-15/python.png', mode='rb') as mf:
             mfs = mf.read()
         with open('基础1-15/copy_img.png', mode='wb') as wf:
             wf.write(mfs)
