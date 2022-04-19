@@ -1,6 +1,9 @@
 # _*_ coding: utf-8 _*_
 # created by Stephen•Liu on 2022/4/18 23:08
 
+'''
+    使用t模式操作文件
+'''
 # 写入文件
 with open('c.txt', 'wt', encoding='utf-8') as f:
     f.write('hello world!!\n')

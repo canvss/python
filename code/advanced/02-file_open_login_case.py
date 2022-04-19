@@ -1,6 +1,8 @@
 # _*_ coding: utf-8 _*_
 # created by Stephen•Liu on 2022/4/18 23:31
-
+'''
+    读取文件中的用户信息实现登录
+'''
 
 def register_user(name, pwd):
     with open('db.txt',mode='wt',encoding='utf-8')as f:
